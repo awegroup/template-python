@@ -24,7 +24,7 @@ foobar.pluralize('goose')
 foobar.singularize('phenomena')
 ```
 
-## :bangbang: Dependencies 
+## :toolbox: Dependencies 
 
 ## :wave: Contributing (optional)
 
