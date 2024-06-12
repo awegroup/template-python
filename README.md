@@ -36,9 +36,10 @@ Please make sure to update tests as appropriate.
 
 ## :warning: License and Waiver
 
-State here under what license your software is released and you must include the copyright notice:
+Specify the license under which your software is distributed, and include the copyright notice:
 
 > Technische Universiteit Delft hereby disclaims all copyright interest in the program “NAME PROGRAM” (one line description of the content or function) written by the Author(s).
+> 
 > Prof.dr. H.G.C. (Henri) Werij, Dean of Aerospace Engineering
 > 
 > Copyright (c) [YEAR] [NAME SURNAME].
