@@ -38,11 +38,10 @@ Please make sure to update tests as appropriate.
 
 State here under what license your software is released and you must include the copyright notice:
 
-Technische Universiteit Delft hereby disclaims all copyright interest in the program [NAME OF YOUR PROJECT] written by the Author(s).
- 
-Prof.dr. H.G.C. (Henri) Werij, Dean of Aerospace Engineering
-
-Copyright (c) [YEAR] [NAME SURNAME].
+> Technische Universiteit Delft hereby disclaims all copyright interest in the program “NAME PROGRAM” (one line description of the content or function) written by the Author(s).
+> Prof.dr. H.G.C. (Henri) Werij, Dean of Aerospace Engineering
+> 
+> Copyright (c) [YEAR] [NAME SURNAME].
 
 ## :gem: Help and Documentation
 [AWE Group | Developer Guide](https://awegroup.github.io/developer-guide/)
