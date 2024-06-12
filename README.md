@@ -34,9 +34,15 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## :warning: License and Wavers
+## :warning: License and Waiver
 
-[MIT](https://choosealicense.com/licenses/mit/)
+State here under what license your software is released and you must include the copyright notice:
+
+Technische Universiteit Delft hereby disclaims all copyright interest in the program [NAME OF YOUR PROJECT] written by the Author(s).
+ 
+Prof.dr. H.G.C. (Henri) Werij, Dean of Aerospace Engineering
+
+Copyright (c) [YEAR] [NAME SURNAME].
 
 ## :gem: Help and Documentation
 [AWE Group | Developer Guide](https://awegroup.github.io/developer-guide/)
