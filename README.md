@@ -41,6 +41,6 @@ Please make sure to update tests as appropriate.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## :gem: Help and Documentation
-[Developer Guide](https://awegroup.github.io/developer-guide/)
+[AWE Group | Developer Guide](https://awegroup.github.io/developer-guide/)
 
 
