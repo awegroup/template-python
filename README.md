@@ -3,7 +3,6 @@ Generic Python template for AWE Group
 
 ## :gear: Installation
 
-
 ### Dependencies
 ...
 
@@ -14,8 +13,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 pip install foobar
 ```
 
-
-## :running: / :eyes: Usage
+## :eyes: Usage
 
 ```python
 import foobar
