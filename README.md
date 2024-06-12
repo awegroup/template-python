@@ -1,8 +1,5 @@
-# template-python
+# Description
 Generic Python template for AWE Group
-
-## :notebook_with_decorative_cover: Table Of Contents
-
 
 ## :gear: Installation
 
@@ -27,13 +24,15 @@ foobar.pluralize('goose')
 foobar.singularize('phenomena')
 ```
 
-## :wave: Contributing
+## :bangbang: Dependencies 
+
+## :wave: Contributing (optional)
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## :waning: License
+## :warning: License and Wavers
 
 [MIT](https://choosealicense.com/licenses/mit/)
