@@ -4,7 +4,8 @@ Generic Python template for AWE Group
 ## :gear: Installation
 
 ### Dependencies
-...
+
+- Sphinx Dependencies, see [requirements](requirements.txt)
 
 ### User Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
