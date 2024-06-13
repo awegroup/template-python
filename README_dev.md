@@ -24,6 +24,8 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 2. OpenUp a branch from this issue
 3. Implement your new feature
 4. Use a pull-request to merge and close this issue
+5. Once merged, delete this feature branch
+6. Update branches locally using `git fetch --prune`
 
 
 ## Explanation of folders/files
