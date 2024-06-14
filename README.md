@@ -11,7 +11,14 @@ Generic Python template for AWE Group
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip install foobar
+pip install .
+```
+
+### Developer Installation
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install -e .[dev]
 ```
 
 ## :eyes: Usage
