@@ -20,13 +20,14 @@ project = "Project"
 copyright = "year, name"
 author = "name"
 
-# The master toctree document.
-master_doc = "index"
-
 # The full version, including alpha/beta/rc tags
 release = "0.1.0"
 
 # -- General configuration ---------------------------------------------------
+
+# The master toctree document.
+master_doc = "index"
+
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom

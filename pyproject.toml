@@ -9,7 +9,7 @@ name = "exampleproject"
 
 # Your project will be accessible at: https://pypi.org/project/exampleproject/
 
-version = "2.0.0"
+version = "0.1.0"
 # Version numbers should conform to PEP 440, and are also mandatory (but they can be set dynamic)
 # https://www.python.org/dev/peps/pep-0440/
 
@@ -28,8 +28,9 @@ requires-python = ">=3.8"
 # Indicate the versions of Python your project is compatible with. Unlike the
 # 'Programming Language' classifiers, 'pip install' will verify this field
 # and prevent installation if the Python version does not match.
+# Check https://endoflife.date/python for Python versions that are still supported.
 
-license = {file = "LICENSE.txt"}
+license = {file = "LICENSE"}
 # This specifies the license.
 # It can be a text (e.g. license = {text = "MIT License"}) or a reference to a file with the license text as shown above.
 
@@ -55,7 +56,7 @@ classifiers = [
   #   4 - Beta
   #   5 - Stable
   #.  6 - Mature
-  "Development Status :: 4 - Beta",
+  "Development Status :: 3 - Alpha",
 
   # Target audience
   "Intended Audience :: Developers",
@@ -70,6 +71,7 @@ classifiers = [
   "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3 :: Only",
 ]
 
@@ -91,11 +93,15 @@ dependencies = [
 
 # These are often referred to as "extras" and provide optional functionality.
 [project.optional-dependencies]
-test = ["coverage"]
+dev = [
+  "pytest",
+  "pytest-cov",
+  "black",
+  ]
 
 [project.urls]
 "Homepage" = "https://github.com/awegroup"
-"Source" = "https://github.com/awegroup/MegAWES"
+"Source" = "https://github.com/awegroup/<your_repository>"
 
 # List of relevant URLs for your project. These are displayed on the left sidebar of your PyPI page.
 # This can include links to the homepage, source code, changelog, funding, etc.
