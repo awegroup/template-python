@@ -9,6 +9,9 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 4. Clone the just created repository into this folder, i.e. run `git clone ???`
 5. Make some changes, and create your first commit see: ...
 
+## Setting-Up the Project
+- [ ] Update 
+
 ## Proposed-Workflow
 
 ### Generic
@@ -27,5 +30,9 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 
 
 ## Explanation of folders/files
-
 - `.gitkeep` is placed such that the empty folder show on GitHub, without this file would be automatically ignored and the project structure would not be clear. Once other files are present inside this folder, this file can be deleted.
+- The folders `data/`, `processed_data/`, and `results/` have been added to the `.gitignore` file, as they are expected to contain 
+  - large files that should not be uploaded to GitHub
+  - confidential data that should not be uploaded to GitHub
+  - generated data that can be recreated
+  - generated results that can be recreated
