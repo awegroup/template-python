@@ -33,12 +33,12 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
   git commit -m "#<enter tag number> <enter commit message name>"
   git push
 ```
-7. Use a pull-request, with `base:develop`, to merge this feature branch and close this issue
+7. Create a pull-request, with `base:develop`, to merge this feature branch and close this issue
 8. Once merged, delete this feature branch on the remote
 9. Update branch information locally using `git fetch --prune`, pull in new info `git pull origin develop` and delete branch locally using `git branch -d <enter branch name>`
 ```
   git fetch --prune
-  git pull origin develop
+  git pull --all
   git checkout develop
 ```
 10. Delete branch
