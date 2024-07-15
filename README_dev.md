@@ -25,11 +25,12 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 ### Steps for implementing a new feature
 1. Create an issue on GitHub
 2. Create a branch from this issue, from the branch source: `develop`
-3. Implement your new feature
-4. Use a pull-request to merge and close this issue
-5. Once merged, delete this feature branch
-6. Update branch information locally using `git fetch --prune`, pull in new info `git pull origin develop` and delete branch locally using `git branch -d <enter branch name>`
-7. Close issue
+3. Use provided cmds to checkout this branch locally
+4. --- Implement your new feature---
+5. Use a pull-request to merge and close this issue
+6. Once merged, delete this feature branch
+7. Update branch information locally using `git fetch --prune`, pull in new info `git pull origin develop` and delete branch locally using `git branch -d <enter branch name>`
+8. Close issue
 
 
 ## Explanation of folders/files
