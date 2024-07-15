@@ -24,7 +24,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 
 ### Steps for implementing a new feature
 1. Create an issue on GitHub
-2. OpenUp a branch from this issue
+2. Create a branch from this issue, from the branch source: `develop`
 3. Implement your new feature
 4. Use a pull-request to merge and close this issue
 5. Once merged, delete this feature branch
