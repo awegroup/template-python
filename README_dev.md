@@ -28,7 +28,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 3. Use provided cmds to checkout this branch locally
 4. --- Implement your new feature---
 5. git add, git commit (with # to current Issue number), git push
-6. Use a pull-request to merge and close this issue
+6. Use a pull-request, with `base:develop`, to merge this feature branch and close this issue
 7. Once merged, delete this feature branch
 8. Update branch information locally using `git fetch --prune`, pull in new info `git pull origin develop` and delete branch locally using `git branch -d <enter branch name>`
 9. Close issue
