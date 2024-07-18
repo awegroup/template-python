@@ -30,7 +30,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 5. git add, git commit (with # to current Issue number), git push
 ```
   git add .
-  git commit -m "#<enter tag number> <enter commit message name>"
+  git commit -m "#<number> <message>"
   git push
 ```
 7. Create a pull-request, with `base:develop`, to merge this feature branch and close this issue
@@ -43,7 +43,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 ```
 10. Delete branch
 ```
-  git branch -d <enter branch name>
+  git branch -d <branch name>
 ```
 12. Close issue
 
