@@ -40,6 +40,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
   git fetch --prune
   git pull --all
   git checkout develop
+  git pull
 ```
 10. Delete branch
 ```
