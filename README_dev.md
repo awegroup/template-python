@@ -24,7 +24,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 
 ### Steps for implementing a new feature
 1. Create an issue on GitHub
-2. Create a branch from this issue, from the branch source: `develop`
+2. Create a branch from this issue and change the branch source to `develop`
 3. Use provided cmds to checkout this branch locally
 4. --- Implement your new feature---
 5. git add, git commit (with # to current Issue number), git push
