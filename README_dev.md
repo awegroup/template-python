@@ -34,7 +34,6 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
   git push
 ```
 7. Create a pull-request, with `base:develop`, to merge this feature branch and close this issue
-8. Once merged, delete this feature branch on the remote
 9. Update branch information locally using `git fetch --prune`, pull in new info `git pull origin develop` and delete branch locally using `git branch -d <enter branch name>`
 ```
   git fetch --prune
@@ -42,6 +41,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
   git checkout develop
   git pull
 ```
+9. Once merged on the remote and locally, delete this feature branch on the remote
 10. Delete branch
 ```
   git branch -d <branch name>
