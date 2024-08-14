@@ -41,12 +41,11 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
   git checkout develop
   git pull
 ```
-9. Once merged on the remote and locally, delete this feature branch on the remote
-10. Delete branch
+9. Once merged on the remote and locally, delete this feature branch on the remote (see pull-request) and locally using 
 ```
   git branch -d <branch name>
 ```
-12. Close issue
+10. Close issue
 
 
 ## Explanation of folders/files
