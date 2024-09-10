@@ -7,19 +7,58 @@ Generic Python template for AWE Group
 
 - Sphinx Dependencies, see [requirements](requirements.txt)
 
-### User Installation
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Installation Instructions
+1. Clone the repository:
+    ```bash
+    git clone <enter github URL here, e.g. "https://github.com/awegroup/template-python">
+    ```
 
-```bash
-pip install .
-```
+2. Navigate to the repository folder:
+    ```bash
+    cd <enter repository name here, e.g. "template-python">
+    ```
+    
+3. Create a virtual environment:
+   
+   Linux or Mac:
+    ```bash
+    python3 -m venv venv
+    ```
+    
+    Windows:
+    ```bash
+    python -m venv venv
+    ```
+    
+5. Activate the virtual environment:
 
-### Developer Installation
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+   Linux or Mac:
+    ```bash
+    source venv/bin/activate
+    ```
 
-```bash
-pip install -e .[dev]
-```
+    Windows
+    ```bash
+    .\venv\Scripts\activate
+    ```
+
+6. Install the required dependencies:
+
+   For users: (using package manager [pip](https://pip.pypa.io/en/stable/))
+
+    ```bash
+    pip install .
+    ```
+        
+   For developers:
+    ```bash
+    pip install -e .[dev]
+    ```
+
+7. To deactivate the virtual environment:
+    ```bash
+    deactivate
+    ```
 
 ## :eyes: Usage
 
