@@ -8,17 +8,18 @@ Generic Python template for AWE Group
 - Sphinx Dependencies, see [requirements](requirements.txt)
 
 ## Installation Instructions
-1. Clone the repository:
-    ```bash
-    git clone <enter github URL here, e.g. "https://github.com/awegroup/template-python">
-    ```
 
-2. Navigate to the repository folder:
+1. Navigate to the repository folder:
     ```bash
     cd <enter repository name here, e.g. "template-python">
     ```
-    
-3. Create a virtual environment:
+2. Clone the repository, use the `git clone,` and copy from HTTPS. For the template, this would be:
+    ```bash
+    git clone https://github.com/awegroup/template-python.git
+    ```
+
+
+4. Create a virtual environment:
    
    Linux or Mac:
     ```bash
