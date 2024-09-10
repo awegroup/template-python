@@ -9,9 +9,9 @@ Generic Python template for AWE Group
 
 ## Installation Instructions
 
-1. Navigate to the repository folder:
+1. Navigate to the repository folder, using the terminal with commands change-directory `cd` and path using the `tab` key will give suggestion for folders
     ```bash
-    cd <enter repository name here, e.g. "template-python">
+    cd < enter path >
     ```
 2. Clone the repository, use the `git clone,` and copy from HTTPS. For the template, this would be:
     ```bash
