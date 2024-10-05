@@ -58,14 +58,14 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 
 
 ### Steps for implementing a new feature
-1. Create an issue on GitHub
-2. Create a branch from this issue and change the branch source to `develop`
-3. Navigate to repository locally and activate virtual environment
+1. First navigate to repository locally and activate virtual environment
    ```bash
    source venv/bin/activate
    ```
-4. Use provided cmds to checkout this branch locally
-5. --- Implement your new feature---
+2. Create an issue on GitHub
+3. Create a branch from this issue and change the branch source to `develop`
+4. Use the provided GitHub commands to checkout this branch locally
+5. **--- Implement your new feature---**
 6. Verify nothing broke using pytest
 ```
   pytest
