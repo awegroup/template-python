@@ -60,9 +60,13 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 ### Steps for implementing a new feature
 1. Create an issue on GitHub
 2. Create a branch from this issue and change the branch source to `develop`
-3. Use provided cmds to checkout this branch locally
-4. --- Implement your new feature---
-5. Verify nothing broke using pytest
+3. Navigate to repository locally and activate virtual environment
+   ```bash
+   source venv/bin/activate
+   ```
+4. Use provided cmds to checkout this branch locally
+5. --- Implement your new feature---
+6. Verify nothing broke using pytest
 ```
   pytest
 ```
@@ -72,7 +76,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
   git commit -m "#<number> <message>"
   git push
 ```
-7. Create a pull-request, with `base:develop`, to merge this feature branch and close this issue
+8. Create a pull-request, with `base:develop`, to merge this feature branch and close this issue
 9. Update branch information locally using `git fetch --prune`, pull in new info `git pull origin develop` and delete branch locally using `git branch -d <enter branch name>`
 ```
   git fetch --prune
@@ -80,10 +84,10 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
   git checkout develop
   git pull
 ```
-9. Once merged on the remote and locally, delete this feature branch on the remote (see pull-request) and locally using 
+10. Once merged on the remote and locally, delete this feature branch on the remote (see pull-request) and locally using 
 ```
   git branch -d <branch name>
 ```
-10. Close issue
+11. Close issue
 
 
