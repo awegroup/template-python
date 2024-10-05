@@ -3,11 +3,43 @@
 Hi! Welcome to this Python Template, this `README_dev.md` contains instructions on the intended usage of this python template.
 
 ## Getting-Started
-1. Copy the template into a new repository, and edit the name to your project name
-2. On your pc (locally) create a folder for your code project
-3. Open this folder with your favorite editor (e.g. VSCode) and within it create a new python venv
-4. Clone the just created repository into this folder, i.e. run `git clone ???`
-5. Make some changes, and create your first commit see: ...
+1. Move to the [template](https://github.com/awegroup/template-python)
+2. Find the green button on the top-right that says "Use this template," and create a new repository with your `<repository-name>`.
+3. Clone the repository using the green "<> Code" button, copy the SSH link
+4. Locally, on your PC, (1) navigate to the right-folder and (2) clone the repository
+   ```bash
+    cd <specify parent-folder> # Navigate to the parent folder in which you want this new repository to be place
+   git clone <copy-paste the SSH link> # copy-pasting in terminal can be done using: cntrl-shift-v
+   ```
+5. Navigate into the cloned repository (one can use Tab for auto-completion, and double Tab to list all options)
+   ```bash
+   cd <repository-name>\
+   ```
+6. Time to create our first commit using git, first one should add all the changes. It is important to always do this from the root folder of your repository, to check what will be tracked you can use `git status`.
+   ```bash
+   git add .
+   ```
+7. Once the changes are staged, they should be committed with a commit message, e.g. "initial commit". (The `-m` is called a flag, indicating that the commit message will follow. For this message, the arrows `< >` are not required but added here as they are a standard notation form to indicate that there one should enter text)
+   ```bash
+   git commit -m "<type your message here>"
+   ```
+8. The commited changes are now saved on locally, and should be pushed to the remote (to Github). You can verify this worked, by checking the GitHub repository online.
+   ```bash
+   git push
+   ```
+9. Create a virtual environment (this is a folder in your project, in which all the required external packages ('dependencies') are stored)
+    ```bash
+    python -m venv venv
+    ```
+10. Activate the virtual environment, this should result in a (venv) in your terminal, indicating the virtual-environment is active. 
+    ```bash
+    source venv/bin/activate
+    ```
+11. you can now open this folder with your favorite code editor (IDE, e.g. VSCode) and start coding!
+12. Once you are finished you can deactivate the venv using, don't forget next-time you start coding to activate the venv once more
+    ```bash
+    deactivate
+    ```
 
 ## Setting-Up the Project
 - [ ] Update 
