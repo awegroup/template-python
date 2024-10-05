@@ -44,11 +44,17 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 ## Proposed-Workflow
 
 ### Generic
-- Work with a main, develop and feature branches
+- Branch management: work with main branches that have stable releases and create feature branches for implementing new features and merge this once completed. 
 - Write user settings in a `.yaml` file
-- Don't use any hardcode inside your source folder
-- Write scripts that should be run inside notebooks
-- The other folders should only contain functions or data
+- Store all essential code inside the `src/<package-name>/` folder, and install this package using `pip install -e .` to call these using `import <package-name>`
+- All raw data should be in `data`, all processed in `processed_data`, all results in `results`, etc. 
+- If results use specific settings, these should also be stored along with the results, such that the result can be reproduced at a later stage (reproducible science)
+- - `.gitkeep` is placed such that the empty folder shows on GitHub; without this file, it would be automatically ignored, and the project structure would not be clear. Once other files are inside this folder, this file can be deleted.
+- The folders `data/`, `processed_data/`, and `results/` have been added to the `.gitignore` file, as they are expected to contain 
+  - large files that should not be uploaded to GitHub
+  - confidential data that should not be uploaded to GitHub
+  - generated data that can be recreated
+  - generated results that can be recreated
 
 
 ### Steps for implementing a new feature
@@ -81,10 +87,3 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 10. Close issue
 
 
-## Explanation of folders/files
-- `.gitkeep` is placed such that the empty folder show on GitHub, without this file would be automatically ignored and the project structure would not be clear. Once other files are present inside this folder, this file can be deleted.
-- The folders `data/`, `processed_data/`, and `results/` have been added to the `.gitignore` file, as they are expected to contain 
-  - large files that should not be uploaded to GitHub
-  - confidential data that should not be uploaded to GitHub
-  - generated data that can be recreated
-  - generated results that can be recreated
