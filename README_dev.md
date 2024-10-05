@@ -2,7 +2,7 @@
 
 Hi! Welcome to this Python Template, this `README_dev.md` contains instructions on the intended usage of this python template.
 
-## Getting-Started
+## Setting Up the Project
 1. Move to the [template](https://github.com/awegroup/template-python)
 2. Find the green button on the top-right that says "Use this template," and create a new repository with your `<repository-name>`.
 3. Clone the repository using the green "<> Code" button and copy the SSH link. Tip: SSH keys are a way of authenticating, which alleviates the need to enter your GitHub password on each commit; see this [tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate an SSH key and establish this connection. 
@@ -40,9 +40,6 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
     ```bash
     deactivate
     ```
-
-## Setting-Up the Project
-- [ ] Update 
 
 ## Proposed-Workflow
 
