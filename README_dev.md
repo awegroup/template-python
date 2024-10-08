@@ -22,41 +22,41 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 4. Locally, on your PC, navigate to the folder in which you want the repository to be placed using `cd`. (tip: one can use Tab for auto-completion and double Tab to list all options)
 5. Clone the repository. Tip 1: copy-pasting in terminal can be done using: cntrl-shift-v. Tip 2: the arrows `< >` are not required but added here as they are a standard notation form to indicate that there one should enter text)
    ```bash
-   git clone <copy-paste the SSH link> 
+     git clone <copy-paste the SSH link> 
    ```
 6. Navigate into the cloned repository 
    ```bash
-   cd <repository-name>
+     cd <repository-name>
    ```
 7. It's time to create our first commit using git; this starts with adding (or staging) the changes. It is important always to do this from the root folder of your repository, to check what will be tracked you can use `git status`.
    ```bash
-   git add .
+     git add .
    ```
 8. Once the changes are staged, they should be committed with a commit message, e.g. "initial commit". The `-m` is called a flag, indicating that the commit message will follow.
    ```bash
-   git commit -m "<type your message here>"
+     git commit -m "<type your message here>"
    ```
 9. The committed changes are now saved locally and should be pushed to the remote (to Github). You can verify this worked by checking the GitHub repository online.
    ```bash
-   git push
+     git push
    ```
 10. Create a virtual environment. The venv is a folder in your project in which all the required external packages ('dependencies') are stored)
     ```bash
-    python -m venv venv
+      python -m venv venv
     ```
 11. Activate the virtual environment; this should result in a (venv) in your terminal, indicating the virtual environment is active. Tip: for proper dependency management, one should **always activate the venv before coding**.
      
    ```bash
-   # linux
-   source venv/bin/activate
-   ```
-   ```bash
-   # Windows (Command Prompt)
-   venv\Scripts\activate
-   ```
-   ```bash
-   # Windows (PowerShell)
-   .\venv\Scripts\Activate
+     # linux
+     source venv/bin/activate
+     ```
+     ```bash
+     # Windows (Command Prompt)
+     venv\Scripts\activate
+     ```
+     ```bash
+     # Windows (PowerShell)
+     .\venv\Scripts\Activate
    ```
 
    
@@ -69,16 +69,16 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 # Workflow for implementing new features
 1. First navigate to repository locally and activate virtual environment
    ```bash
-   # linux
-   source venv/bin/activate
-   ```
-   ```bash
-   # Windows (Command Prompt)
-   venv\Scripts\activate
-   ```
-   ```bash
-   # Windows (PowerShell)
-   .\venv\Scripts\Activate
+     # linux
+     source venv/bin/activate
+     ```
+     ```bash
+     # Windows (Command Prompt)
+     venv\Scripts\activate
+     ```
+     ```bash
+     # Windows (PowerShell)
+     .\venv\Scripts\Activate
    ```
 2. Create an issue on GitHub
 3. Create a branch from this issue and change the branch source to `develop`
@@ -113,54 +113,54 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 1. Ensure all your package code is inside the folder `src/<package-name> and contains `__init__.py` files in all its sub directories
 2. Go to the `pyproject.toml` file and enter your package-name to the 3rd line:
   ```bash
-  name = "<package-name>"
+    name = "<package-name>"
   ```
 4. For proper documentation: change the fields; version, description, requires-python, license, keywords, authors, maintainers and classifiers.
 5. Add the dependencies that you need to the dependency list, example:
    ```bash
    dependencies = [
-  "numpy", 
-  "pandas>=1.5.3", 
-  "matplotlib>=3.7.1"
-   ]
+    "numpy", 
+    "pandas>=1.5.3", 
+    "matplotlib>=3.7.1"
+     ]
    ```
 5. Add developer dependencies if you like
 6. Change the "source" URL
    ```bash
-   "Source" = "https://github.com/awegroup/<your_repository>"
+     "Source" = "https://github.com/awegroup/<your_repository>"
    ```
 7. Optional, if you would like your users to ONLY install `.py` files within the `src/<package-name>` directory and not the other files, you can remove the following lines:
 ```bash
-# To grab all the files from the src folders of installed packages, not only the .py files
-[tool.setuptools.packages.find]
-where = ["src"]
+  # To grab all the files from the src folders of installed packages, not only the .py files
+  [tool.setuptools.packages.find]
+  where = ["src"]
 ``` 
 
 ### Using your package locally
 1. Navigate to the root-directory of your repository and create a virtual environment
    ```bash
-   # linux
-   source venv/bin/activate
-   ```
-   ```bash
-   # Windows (Command Prompt)
-   venv\Scripts\activate
-   ```
-   ```bash
-   # Windows (PowerShell)
-   .\venv\Scripts\Activate
+     # linux
+     source venv/bin/activate
+     ```
+     ```bash
+     # Windows (Command Prompt)
+     venv\Scripts\activate
+     ```
+     ```bash
+     # Windows (PowerShell)
+     .\venv\Scripts\Activate
    ```
 2. Install your local package using, where the `[dev]` is optional, to include the developer specified dependencies
    ```bash
-   pip install -e .[dev]
+     pip install -e .[dev]
    ```
 3. When writing code, e.g. inside the `scripts/` folders, you can now access the package using
    ```bash
-   # To import the package
-   import <package-name>
-   # for a specific file within the package
-   from <package-name> import <file-name>
-   # for a specific function, within a file, within the package
-   from <package-name>.<file-name> import <function-name>
+     # To import the package
+     import <package-name>
+     # for a specific file within the package
+     from <package-name> import <file-name>
+     # for a specific function, within a file, within the package
+     from <package-name>.<file-name> import <function-name>
    ```
    
