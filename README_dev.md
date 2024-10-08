@@ -1,8 +1,8 @@
-# Introduction
+## Introduction
 
 Hi! Welcome to this Python Template, this `README_dev.md` contains instructions on the intended usage of this python template.
 
-## Setting Up the Project
+# Setting Up the Project
 1. Move to the [template](https://github.com/awegroup/template-python)
 2. Find the green button on the top-right that says "Use this template," and create a new repository with your `<repository-name>`.
 3. Navigate to the green "<> Code" button and copy the SSH link. Tip: SSH keys are a way of authenticating, which alleviates the need to enter your GitHub password on each commit; see this [tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate an SSH key and establish this connection. 
@@ -53,7 +53,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
     deactivate
     ```
 
-## Proposed-Workflow
+# Proposed-Workflow
 
 ### Generic
 - Branch management: work with main branches that have stable releases and create feature branches for implementing new features and merge this once completed. 
@@ -110,3 +110,56 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
   git branch -d <branch name>
 ```
 
+
+# Packaging through the .toml file
+###  Setting up the .toml file
+1. Ensure all your package code is inside the folder `src/<package-name> and contains `__init__.py` files in all its sub directories
+2. Go to the `pyproject.toml` file and enter your package-name to the 3rd line: `name = "<package-name>"
+3. For proper documentation: change the fields; version, description, requires-python, license, keywords, authors, maintainers and classifiers.
+4. Add the dependencies that you need to the dependency list, example:
+   ```bash
+   dependencies = [
+  "numpy", 
+  "pandas>=1.5.3", 
+  "matplotlib>=3.7.1"
+   ]
+   ```
+5. Add developer dependencies if you like
+6. Change the "source" URL
+   ```bash
+   "Source" = "https://github.com/awegroup/<your_repository>"
+   ```
+7. Optional, if you would like your users to ONLY install `.py` files within the `src/<package-name>` directory and not the other files, you can remove the following lines:
+```bash
+# To grab all the files from the src folders of installed packages, not only the .py files
+[tool.setuptools.packages.find]
+where = ["src"]
+``` 
+
+### Using your package locally
+1. Navigate to the root-directory of your repository and create a virtual environment
+   ```bash
+   # linux
+   source venv/bin/activate
+   ```
+   ```bash
+   # Windows (Command Prompt)
+   venv\Scripts\activate
+   ```
+   ```bash
+   # Windows (PowerShell)
+   .\venv\Scripts\Activate
+   ```
+2. Install your local package using, where the `[dev]` is optional, to include the developer specified dependencies
+   ```bash
+   pip install -e .[dev]
+   ```
+3. When writing code, e.g. inside the `scripts/` folders, you can now access the package using
+   ```bash
+   import <package-name>
+   # for a specific file within the package
+   from <package-name> import <file-name>
+   # for a specific function, within a file, within the package
+   from <package-name>.<file-name> import <function-name>
+   ```
+   
