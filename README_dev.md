@@ -2,7 +2,20 @@
 
 Hi! Welcome to this Python Template, this `README_dev.md` contains instructions on the intended usage of this python template.
 
-# Setting Up the Project
+### Generic
+- Branch management: work with main branches that have stable releases and create feature branches for implementing new features and merge this once completed. 
+- Write user settings in a `.yaml` file
+- Store all essential code inside the `src/<package-name>/` folder, and install this package using `pip install -e .` to call these using `import <package-name>`
+- All raw data should be in `data`, all processed in `processed_data`, all results in `results`, etc. 
+- If results use specific settings, these should also be stored along with the results, such that the result can be reproduced at a later stage (reproducible science)
+- - `.gitkeep` is placed such that the empty folder shows on GitHub; without this file, it would be automatically ignored, and the project structure would not be clear. Once other files are inside this folder, this file can be deleted.
+- The folders `data/`, `processed_data/`, and `results/` have been added to the `.gitignore` file, as they are expected to contain 
+  - large files that should not be uploaded to GitHub
+  - confidential data that should not be uploaded to GitHub
+  - generated data that can be recreated
+  - generated results that can be recreated
+
+# Setting up your project
 1. Move to the [template](https://github.com/awegroup/template-python)
 2. Find the green button on the top-right that says "Use this template," and create a new repository with your `<repository-name>`.
 3. Navigate to the green "<> Code" button and copy the SSH link. Tip: SSH keys are a way of authenticating, which alleviates the need to enter your GitHub password on each commit; see this [tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate an SSH key and establish this connection. 
@@ -53,23 +66,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
     deactivate
     ```
 
-# Proposed-Workflow
-
-### Generic
-- Branch management: work with main branches that have stable releases and create feature branches for implementing new features and merge this once completed. 
-- Write user settings in a `.yaml` file
-- Store all essential code inside the `src/<package-name>/` folder, and install this package using `pip install -e .` to call these using `import <package-name>`
-- All raw data should be in `data`, all processed in `processed_data`, all results in `results`, etc. 
-- If results use specific settings, these should also be stored along with the results, such that the result can be reproduced at a later stage (reproducible science)
-- - `.gitkeep` is placed such that the empty folder shows on GitHub; without this file, it would be automatically ignored, and the project structure would not be clear. Once other files are inside this folder, this file can be deleted.
-- The folders `data/`, `processed_data/`, and `results/` have been added to the `.gitignore` file, as they are expected to contain 
-  - large files that should not be uploaded to GitHub
-  - confidential data that should not be uploaded to GitHub
-  - generated data that can be recreated
-  - generated results that can be recreated
-
-
-### Steps for implementing a new feature
+# Workflow for implementing new features
 1. First navigate to repository locally and activate virtual environment
    ```bash
    # linux
