@@ -124,7 +124,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
     "matplotlib>=3.7.1"
      ]
    ```
-5. Add developer dependencies if you like
+5. Add developer dependencies if you like, example:
   ```bash
     [project.optional-dependencies]
     dev = [
@@ -135,7 +135,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
   ```
 7. Change the "source" URL
    ```bash
-     "Source" = "https://github.com/awegroup/<your_repository>"
+     "Source" = "<enter_your_repository_URL>"
    ```
 8. Optional, if you would like your users to ONLY install `.py` files within the `src/<package-name>` directory and not the other files, you can remove the following lines:
 ```bash
