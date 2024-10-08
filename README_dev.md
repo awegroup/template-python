@@ -111,9 +111,12 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 # Packaging through the .toml file
 ###  Setting up the .toml file
 1. Ensure all your package code is inside the folder `src/<package-name> and contains `__init__.py` files in all its sub directories
-2. Go to the `pyproject.toml` file and enter your package-name to the 3rd line: `name = "<package-name>"
-3. For proper documentation: change the fields; version, description, requires-python, license, keywords, authors, maintainers and classifiers.
-4. Add the dependencies that you need to the dependency list, example:
+2. Go to the `pyproject.toml` file and enter your package-name to the 3rd line:
+  ```bash
+  name = "<package-name>"
+  ```
+4. For proper documentation: change the fields; version, description, requires-python, license, keywords, authors, maintainers and classifiers.
+5. Add the dependencies that you need to the dependency list, example:
    ```bash
    dependencies = [
   "numpy", 
