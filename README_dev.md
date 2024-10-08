@@ -32,9 +32,22 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
     python -m venv venv
     ```
 11. Activate the virtual environment; this should result in a (venv) in your terminal, indicating the virtual environment is active. Tip: for proper dependency management, one should **always activate the venv before coding**.
-    ```bash
-    source venv/bin/activate
-    ```
+    # Linux / macOS
+   ```bash
+   source venv/bin/activate
+   ```
+   
+   # Windows (Command Prompt)
+   ```bash
+   venv\Scripts\activate
+   ```
+
+   # Windows (PowerShell)
+   ```bash
+   .\venv\Scripts\Activate
+   ```
+
+   
 12. Open this folder with your favorite code editor (IDE, for example VSCode) and start coding!
 13. Once you are finished you can deactivate the venv
     ```bash
