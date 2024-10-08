@@ -33,19 +33,16 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
     ```
 11. Activate the virtual environment; this should result in a (venv) in your terminal, indicating the virtual environment is active. Tip: for proper dependency management, one should **always activate the venv before coding**.
      
-   - Linux / macOS
    ```bash
    # linux
    source venv/bin/activate
    ```
-   
-   - Windows (Command Prompt)
    ```bash
+   # Windows (Command Prompt)
    venv\Scripts\activate
    ```
-
-   - Windows (PowerShell)
    ```bash
+   # Windows (PowerShell)
    .\venv\Scripts\Activate
    ```
 
@@ -75,7 +72,16 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 ### Steps for implementing a new feature
 1. First navigate to repository locally and activate virtual environment
    ```bash
+   # linux
    source venv/bin/activate
+   ```
+   ```bash
+   # Windows (Command Prompt)
+   venv\Scripts\activate
+   ```
+   ```bash
+   # Windows (PowerShell)
+   .\venv\Scripts\Activate
    ```
 2. Create an issue on GitHub
 3. Create a branch from this issue and change the branch source to `develop`
