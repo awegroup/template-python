@@ -117,32 +117,32 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
   ```
 4. For proper documentation: change the fields; version, description, requires-python, license, keywords, authors, maintainers and classifiers.
 5. Add the dependencies that you need to the dependency list, example:
-   ```bash
-   dependencies = [
+    ```bash
+    dependencies = [
     "numpy", 
     "pandas>=1.5.3", 
     "matplotlib>=3.7.1"
      ]
-   ```
+    ```
 5. Add developer dependencies if you like, example:
-  ```bash
-    [project.optional-dependencies]
-    dev = [
-      "pytest",
-      "pytest-cov",
-      "black",
-      ]
-  ```
+    ```bash
+      [project.optional-dependencies]
+      dev = [
+        "pytest",
+        "pytest-cov",
+        "black",
+        ]
+    ```
 7. Change the "source" URL
-   ```bash
+    ```bash
      "Source" = "<enter_your_repository_URL>"
-   ```
+    ```
 8. Optional, if you would like your users to ONLY install `.py` files within the `src/<package-name>` directory and not the other files, you can remove the following lines:
-```bash
-  # To grab all the files from the src folders of installed packages, not only the .py files
-  [tool.setuptools.packages.find]
-  where = ["src"]
-``` 
+    ```bash
+      # To grab all the files from the src folders of installed packages, not only the .py files
+      [tool.setuptools.packages.find]
+      where = ["src"]
+    ``` 
 
 ### Using your package locally
 1. Navigate to the root-directory of your repository and create a virtual environment
