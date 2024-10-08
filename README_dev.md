@@ -35,6 +35,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
      
    - Linux / macOS
    ```bash
+   # linux
    source venv/bin/activate
    ```
    
