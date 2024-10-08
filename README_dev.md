@@ -145,11 +145,11 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
     ``` 
 
 ### Using your package locally
-1. Create
+1. Navigate to the root directory of your repository and create a virtual environment
     ```bash
     python -m venv venv
     ```
-1. Navigate to the root-directory of your repository and create a virtual environment
+2. Activate virtual environment
    ```bash
      # linux
      source venv/bin/activate
@@ -162,11 +162,11 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
      # Windows (PowerShell)
      .\venv\Scripts\Activate
    ```
-2. Install your local package using, where the `[dev]` is optional, to include the developer specified dependencies
+3. Install your local package using, where the `[dev]` is optional, to include the developer specified dependencies
    ```bash
      pip install -e .[dev]
    ```
-3. When writing code, e.g. inside the `scripts/` folders, you can now access the package using
+4. When writing code, e.g. inside the `scripts/` folders, you can now access the package using
    ```bash
      # To import the package
      import <package-name>
