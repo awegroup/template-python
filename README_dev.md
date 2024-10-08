@@ -94,7 +94,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 7. git add, git commit (with # to current Issue number), git push
 ```
   git add .
-  git commit -m "#<number> <message>"
+  git commit -m "#<issue-number> <commit-message>"
   git push
 ```
 8. Create a pull-request, with `base:develop`, to merge this feature branch and close this issue
