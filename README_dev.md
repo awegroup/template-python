@@ -125,11 +125,19 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
      ]
    ```
 5. Add developer dependencies if you like
-6. Change the "source" URL
+  ```bash
+    [project.optional-dependencies]
+    dev = [
+      "pytest",
+      "pytest-cov",
+      "black",
+      ]
+  ```
+7. Change the "source" URL
    ```bash
      "Source" = "https://github.com/awegroup/<your_repository>"
    ```
-7. Optional, if you would like your users to ONLY install `.py` files within the `src/<package-name>` directory and not the other files, you can remove the following lines:
+8. Optional, if you would like your users to ONLY install `.py` files within the `src/<package-name>` directory and not the other files, you can remove the following lines:
 ```bash
   # To grab all the files from the src folders of installed packages, not only the .py files
   [tool.setuptools.packages.find]
