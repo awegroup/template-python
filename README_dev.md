@@ -109,6 +109,4 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 ```
   git branch -d <branch name>
 ```
-11. Close issue
-
 
