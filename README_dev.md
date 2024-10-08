@@ -145,6 +145,10 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
     ``` 
 
 ### Using your package locally
+1. Create
+    ```bash
+    python -m venv venv
+    ```
 1. Navigate to the root-directory of your repository and create a virtual environment
    ```bash
      # linux
