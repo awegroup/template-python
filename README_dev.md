@@ -5,7 +5,7 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
 ## Setting Up the Project
 1. Move to the [template](https://github.com/awegroup/template-python)
 2. Find the green button on the top-right that says "Use this template," and create a new repository with your `<repository-name>`.
-3. Clone the repository using the green "<> Code" button and copy the SSH link. Tip: SSH keys are a way of authenticating, which alleviates the need to enter your GitHub password on each commit; see this [tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate an SSH key and establish this connection. 
+3. Navigate to the green "<> Code" button and copy the SSH link. Tip: SSH keys are a way of authenticating, which alleviates the need to enter your GitHub password on each commit; see this [tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate an SSH key and establish this connection. 
 4. Locally, on your PC, navigate to the folder in which you want the repository to be placed using `cd`. (tip: one can use Tab for auto-completion and double Tab to list all options)
 5. Clone the repository. Tip 1: copy-pasting in terminal can be done using: cntrl-shift-v. Tip 2: the arrows `< >` are not required but added here as they are a standard notation form to indicate that there one should enter text)
    ```bash
