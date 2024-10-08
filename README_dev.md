@@ -156,6 +156,7 @@ where = ["src"]
    ```
 3. When writing code, e.g. inside the `scripts/` folders, you can now access the package using
    ```bash
+   # To import the package
    import <package-name>
    # for a specific file within the package
    from <package-name> import <file-name>
