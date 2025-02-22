@@ -67,19 +67,14 @@ Hi! Welcome to this Python Template, this `README_dev.md` contains instructions 
     ```
 
 # Workflow for implementing new features
-1. First navigate to repository locally and activate virtual environment
-   ```bash
-     # linux
-     source venv/bin/activate
-     ```
-     ```bash
-     # Windows (Command Prompt)
-     venv\Scripts\activate
-     ```
-     ```bash
-     # Windows (PowerShell)
-     .\venv\Scripts\Activate
-   ```
+1. First navigate to repository locally
+2. If venv existent, remove it
+3.  Create new virtual environment
+  ```
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -e .[dev]
+  ```
 2. Create an issue on GitHub
 3. Create a branch from this issue and change the branch source to `develop`
 4. Use the provided GitHub commands to checkout this branch locally
